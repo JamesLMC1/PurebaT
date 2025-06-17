@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+  <!--  Se creo un "div class bienvenida" para incluir la primera animacion  -->
+   <div class="bienvenida">
+    <h1>Bienvenidos</h1>
+  </div>
+  <!--  Se creo un "div class= titulo web" mostrando en forma de nota el titulo y 
+    todo el cuerpo como tal, para agregar las nuevas tareas    -->
+  <div class="contenedorApp">
+  <div class="tituloWeb">
+    <h2>Crea Tu Tarea</h2>
+    <div class="agregarNuevaTarea">
+      <input type="text" id="nuevaTarea" placeholder="Escribe una nueva tarea" />
+      <button onclick="agregarTarea()">Agregar</button>
+    </div>
+    <ul id="listaTareas"></ul>
+  </div>
+   <!--  Se creo un "div class= titulo web" mostrando en forma de nota el titulo y 
+    todo el cuerpo como tal, para agregar las nuevas tareas    --> 
+  <div class="Instrucciones">
+    <h3>¿Cómo funciona?</h3>
+    <p>
+      Esta es una aplicación web sencilla diseñada 
+      para ayudarte a organizar tus tareas. Solo 
+      tienes que escribir una nueva nota, agregarla,
+      y cuando la completes, haz clic sobre ella 
+      para marcarla. Si ya no la necesitas, también
+      puedes eliminarla fácilmente.
+    </p>
+  </div>
+</div>
+
+    <ul id="listaTareas"></ul>
+  </div>
+ <!--  Se hace la comunicacion con el archivo Js -->
+  <script src="ani.js"></script>
+</body>
+</html>
